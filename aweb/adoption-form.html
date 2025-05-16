@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Loving Tails - Adoption Form</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <img src="images/Header logo.png" alt="Logo" class="img-fluid" style="max-width: 70px;" />
+      <a class="navbar-brand ms-2" href="#">Loving Tails</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="adoptable-pets.html">Adoptable Pets</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<section class="container my-5 bg-dark text-light rounded p-4">
+  <h1 class="mb-4 text-warning">Adoption Form</h1>
+  <form>
+    <div class="mb-3">
+      <label for="petName" class="form-label">Pet Name</label>
+      <select class="form-select form-control bg-secondary text-light" id="petName" required>
+        <option value="" disabled selected>Select a pet</option>
+        <option value="Kisses">Kisses</option>
+        <option value="Luna">Luna</option>
+        <option value="Max">Max</option>
+        <option value="Mochi">Mochi</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="fullName" class="form-label">Full Name</label>
+      <input type="text" class="form-control bg-secondary text-light" id="fullName" placeholder="Enter your full name" required />
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control bg-secondary text-light" id="email" placeholder="name@example.com" required />
+    </div>
+    <div class="mb-3">
+      <label for="phone" class="form-label">Phone Number</label>
+      <input type="tel" class="form-control bg-secondary text-light" id="phone" placeholder="Enter your phone number" required />
+    </div>
+    <div class="mb-3">
+      <label for="address" class="form-label">Address</label>
+      <textarea class="form-control bg-secondary text-light" id="address" rows="3" placeholder="Your address" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-warning">Submit Adoption Request</button>
+  </form>
+</section>
+
+<footer class="bg-dark text-center text-light py-4 mt-5">
+  <p>&copy; 2025 Loving Tails | All rights reserved</p>
+  <p>Contact us at: <a href="mailto:info@lovingtails.com" class="text-warning">info@lovingtails.com</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

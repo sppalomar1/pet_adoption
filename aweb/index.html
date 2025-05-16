@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pawfect Match - Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <img src="images/Header logo.png" alt=" Logo" class="img-fluid" style="max-width: 70px;" />
+      <a class="navbar-brand ms-2" href="#">Loving Tails</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="adoptable-pets.html">Adoptable Pets</a></li>
+          <li class="nav-item"><a class="nav-link" href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Carousel -->
+<div id="heroCarousel" class="carousel slide carousel-fade mt-3" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/bulldog.jpg" class="d-block w-100 hero-img" alt="Bulldog" />
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+        <h2>Bella the Bulldog</h2>
+        <p>Friendly 3-year-old Bulldog. Great with families!</p>
+        <a href="adoption-form.html" class="btn btn-outline-light btn-sm">Adopt Me</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/tabby cat.jpg" class="d-block w-100 hero-img" alt="Tabby Cat" />
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+        <h2>Luna the Tabby Cat</h2>
+        <p>Playful and affectionate 1-year-old tabby cat.</p>
+        <a href="adoption-form.html" class="btn btn-outline-light btn-sm">Adopt Me</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/golden retriever.jpg" class="d-block w-100 hero-img" alt="Golden Retriever" />
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 rounded p-3">
+        <h2>Mochi the Golden Retriever</h2>
+        <p>Friendly 3-year-old Golden Retriever, perfect for families.</p>
+        <a href="adoption-form.html" class="btn btn-outline-light btn-sm">Adopt Me</a>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Featured Pets Grid -->
+<section class="container my-5">
+  <h2 class="text-center text-light mb-4">Featured Pets</h2>
+  <div class="row g-4">
+    <!-- Card 1 -->
+    <div class="col-md-4">
+      <div class="card featured-pet-card bg-dark text-light h-100">
+        <img src="images/bulldog.jpg" class="card-img-top" alt="Bella" />
+        <div class="card-body">
+          <h5 class="card-title">Kisses</h5>
+          <p class="card-text">Friendly 3-year-old Bulldog. Great with families!</p>
+          <a href="adoption-form.html" class="btn btn-outline-warning">Adopt</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="col-md-4">
+      <div class="card featured-pet-card bg-dark text-light h-100">
+        <img src="images/tabby cat.jpg" class="card-img-top" alt="Luna" />
+        <div class="card-body">
+          <h5 class="card-title">Luna</h5>
+          <p class="card-text">1-year-old tabby cat. Playful and affectionate!</p>
+          <a href="adoption-form.html" class="btn btn-outline-warning">Adopt</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="col-md-4">
+      <div class="card featured-pet-card bg-dark text-light h-100">
+        <img src="images/beagle.jpg" class="card-img-top" alt="Max" />
+        <div class="card-body">
+          <h5 class="card-title">Max</h5>
+          <p class="card-text">Energetic Beagle who loves walks and cuddles!</p>
+          <a href="adoption-form.html" class="btn btn-outline-warning">Adopt</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row g-4 mt-3">
+    <!-- Card 4 -->
+    <div class="col-md-4">
+      <div class="card featured-pet-card bg-dark text-light h-100">
+        <img src="images/golden retriever.jpg" class="card-img-top" alt="Mochi" />
+        <div class="card-body">
+          <h5 class="card-title">Mochi</h5>
+          <p class="card-text">Friendly 3-year-old Golden Retriever. Great with families!</p>
+          <a href="adoption-form.html" class="btn btn-outline-warning">Adopt</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 5 -->
+    <div class="col-md-4">
+      <div class="card featured-pet-card bg-dark text-light h-100">
+        <img src="images/persian cat.jpg" class="card-img-top" alt="Luna" />
+        <div class="card-body">
+          <h5 class="card-title">Luna</h5>
+          <p class="card-text">1-year-old Persian cat. Playful and affectionate!</p>
+          <a href="adoption-form.html" class="btn btn-outline-warning">Adopt</a>
+        </div>
+      </div>
+    </div>
+    <!-- Card 6 -->
+    <div class="col-md-4">
+      <div class="card featured-pet-card bg-dark text-light h-100">
+        <img src="images/husky.jpg" class="card-img-top" alt="Max" />
+        <div class="card-body">
+          <h5 class="card-title">Max</h5>
+          <p class="card-text">Energetic Husky who loves walks and cuddles!</p>
+          <a href="adoption-form.html" class="btn btn-outline-warning">Adopt</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Donation & Volunteer -->
+<section class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-6">
+      <div class="card bg-secondary text-light h-100">
+        <div class="card-body text-center">
+          <h3>💝 Make a Donation</h3>
+          <p>Your generous donations help provide food, shelter, and medical care for rescued pets. Every contribution makes a difference!</p>
+          <a href="#donate" class="btn btn-warning">Donate Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="card bg-secondary text-light h-100">
+        <div class="card-body text-center">
+          <h3>🤝 Become a Volunteer</h3>
+          <p>Join our caring community and help make a difference in animals' lives.</p>
+          <a href="#donate" class="btn btn-warning">Donate Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-center text-light py-4">
+  <p>&copy; 2025 Loving Tails | All rights reserved</p>
+  <p>Contact us at: <a href="mailto:info@LovingTails.com" class="text-warning">info@lovingtails.com</a></p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
